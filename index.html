@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./exercicioDois.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body>
+
+    <header><h1>Calculadora de Média Escolar</h1></header>
+    <div class="container">
+    <p class="princial"> Crie uma função chamada calculaMedia, que pegue 3 notas de inputs,
+        e que imprima no HTML a média aritmética dos números; Mostre
+        em uma div se o aluno foi APROVADO (verde) ou REPROVADO (vermelho).
+        Aprovado acima de 5.9.
+    </p>
+
+    <div class="entradas">
+        <input placeholder="Média"type="number" name="" id="input1">
+        <input placeholder="Média" type="number" name="" id="input2">
+        <input placeholder="Média" type="number" name="" id="input3">
+        <button onclick="calcularMedia()">Calcular</button>
+       
+    </div>
+
+    <div class="resultados">
+        <p>
+            Média:<span id="rMedia">???</span>
+        </p>
+    </div>
+
+    <div>
+        <p>
+        Passou: <span id="rPassou">???</span>
+        </p>
+    </div>
+
+</div>
+</body>
+
+</html>
